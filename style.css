@@ -1,0 +1,6 @@
+body { font-family: Tahoma, sans-serif; margin: 0; background: #f4f4f4; direction: rtl; }
+.container { display: flex; min-height: 100vh; }
+.sidebar { width: 250px; background: #2c3e50; color: white; padding: 20px; }
+.sidebar a { color: white; text-decoration: none; display: block; padding: 10px 0; }
+.content { flex: 1; padding: 20px; }
+.news-item { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
