@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="dv" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>މުޢާޒްގެ ވެބްސައިޓް</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thaana&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; font-family: 'Noto Sans Thaana', sans-serif; background-color: #f4f7f6; color: #333; font-size: 22px; display: flex; flex-direction: column; min-height: 100vh; }
+        
+        header { background: #00796b; color: white; padding: 50px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        header h1 { font-size: 4rem; margin: 0; }
+        
+        .main-container { display: flex; padding: 40px; gap: 40px; flex: 1; }
+        .content { flex: 3; }
+        .sidebar { flex: 1; background: white; padding: 30px; border-radius: 20px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); height: fit-content; }
+        
+        .welcome-title { color: #00796b; font-size: 3rem; border-bottom: 4px solid #00796b; display: inline-block; padding-bottom: 10px; margin-bottom: 20px; }
+
+        /* Team Section */
+        .team-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-bottom: 50px; }
+        .team-card { background: white; padding: 30px; border-radius: 20px; text-align: center; box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        .team-card img { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 5px solid #00796b; }
+        .team-card h3 { font-size: 2.2rem; margin: 15px 0 5px; }
+        .team-card p { font-size: 1.7rem; color: #555; }
+
+        /* Gallery Section */
+        .gallery-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; margin-top: 20px; }
+        .gallery-card { border-radius: 20px; overflow: hidden; box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: 0.4s; }
+        .gallery-card:hover { transform: scale(1.05); }
+        .gallery-card img { width: 100%; height: 250px; object-fit: cover; display: block; }
+
+        /* Maldives Beauty Section */
+        .maldives-beauty { background: white; padding: 30px; border-radius: 20px; margin-top: 50px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); }
+        .maldives-beauty p { font-size: 1.8rem; line-height: 1.6; color: #444; }
+
+        .sidebar h2 { font-size: 2.5rem; color: #00796b; }
+        .sidebar li { list-style: none; margin: 25px 0; }
+        .sidebar a { text-decoration: none; color: #333; font-weight: bold; font-size: 1.8rem; transition: 0.3s; }
+        .sidebar a:hover { color: #00796b; }
+
+        footer { background: #004d40; color: white; text-align: center; padding: 30px; margin-top: auto; font-size: 1.5rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>މުޢާޒްގެ ރަސްމީ ވެބްސައިޓަށް މަރުޚަބާ</h1>
+</header>
+
+<div class="main-container">
+    <div class="content">
+        <h2 class="welcome-title">އަހަރެމެންގެ ޓީމް</h2>
+        <div class="team-section">
+            <div class="team-card">
+                <img src="https://via.placeholder.com/180" alt="މުޢާޒް">
+                <h3>މުޢާޒް</h3>
+                <p>ވެބްސައިޓް އެޑްމިން</p>
+            </div>
+        </div>
+
+        <h2 class="welcome-title">ރަށްރަށުގެ ފޮޓޯ ގެލަރީ</h2>
+        <div class="gallery-section">
+            <div class="gallery-card"><img src="https://via.placeholder.com/400x250" alt="ރަށް 1"></div>
+            <div class="gallery-card"><img src="https://via.placeholder.com/400x250" alt="ރަށް 2"></div>
+            <div class="gallery-card"><img src="https://via.placeholder.com/400x250" alt="ރަށް 3"></div>
+            <div class="gallery-card"><img src="https://via.placeholder.com/400x250" alt="ރަށް 4"></div>
+        </div>
+
+        <!-- ރާއްޖެތެރޭގެ ރީތިކަން -->
+        <div class="maldives-beauty">
+            <h2 class="welcome-title">ރާއްޖެތެރޭގެ ރީތިކަން</h2>
+            <p>ދިވެހިރާއްޖެއަކީ ދުނިޔޭގެ އެންމެ ރީތި ގުދުރަތީ މަންޒަރުތައް ފެންނަ އެއް ގައުމެވެ. އަހަރެމެންގެ ރަށްރަށުގެ ގޮނޑުދޮށްތަކާއި، ފަރުތަކުގެ ރީތިކަމަކީ ބަޔާންކުރަން ދަތި ރީތިކަމެކެވެ. މި ސައިޓުގައި އަހަރެމެން މަސައްކަތްކުރަނީ މި ރީތިކަން ހިއްސާކުރުމަށެވެ.</p>
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <h2>މެނިއު</h2>
+        <ul>
+            <li><a href="#">ފުރަތަމަ ޞަފްޙާ</a></li>
+            <li><a href="#">ޚަބަރުތައް</a></li>
+            <li><a href="#">ކުރު ވާހަކަ</a></li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 މުޢާޒް އެމްވީ</p>
+</footer>
+
+</body>
+  </html>
