@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="dv" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>މުޢާޒްގެ ވެބްސައިޓް</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thaana&display=swap" rel="stylesheet">
+    <style>
+        body { margin: 0; font-family: 'Noto Sans Thaana', sans-serif; background-color: #f4f7f6; color: #333; font-size: 20px; display: flex; flex-direction: column; min-height: 100vh; }
+        
+        /* Navigation Menu */
+        nav { background: #004d40; padding: 15px 0; text-align: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        nav a { color: white; text-decoration: none; margin: 0 20px; font-weight: bold; font-size: 1.3rem; }
+        nav a:hover { color: #80cbc4; }
+
+        header { background: #00796b; color: white; padding: 50px 20px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        header h1 { font-size: 3.5rem; margin: 0; }
+        header p { font-size: 1.5rem; margin-top: 10px; }
+        
+        .main-container { max-width: 1100px; margin: 40px auto; padding: 0 20px; flex: 1; }
+        
+        .welcome-title { color: #00796b; font-size: 2.5rem; border-bottom: 4px solid #00796b; display: inline-block; padding-bottom: 10px; margin-bottom: 20px; }
+
+        /* Sections */
+        .section { background: white; padding: 30px; border-radius: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-bottom: 40px; }
+
+        /* Gallery */
+        .gallery-section { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px; }
+        .gallery-card { border-radius: 15px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .gallery-card img { width: 100%; height: 200px; object-fit: cover; display: block; }
+
+        footer { background: #004d40; color: white; text-align: center; padding: 30px; margin-top: auto; font-size: 1.2rem; }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="#">ފުރަތަމަ ޞަފްޙާ</a>
+    <a href="#">ޚަބަރު</a>
+    <a href="#">ވާހަކަ</a>
+</nav>
+
+<header>
+    <h1>މުޢާޒްގެ ރަސްމީ ވެބްސައިޓަށް މަރުޚަބާ</h1>
+    <p>މުޢާޒްގެ ވެބްސައިޓަށް ވަޑައިގެންނެވިކަމަށްޓަކައި ޝުކުރިއްޔާ!</p>
+</header>
+
+<div class="main-container">
+    <section class="section">
+        <h2 class="welcome-title">ރަށްރަށުގެ ފޮޓޯ ގެލަރީ</h2>
+        <div class="gallery-section">
+            <div class="gallery-card"><img src="https://via.placeholder.com/400x250" alt="ރަށް 1"></div>
+            <div class="gallery-card"><img src="https://via.placeholder.com/400x250" alt="ރަށް 2"></div>
+            <div class="gallery-card"><img src="https://via.placeholder.com/400x250" alt="ރަށް 3"></div>
+            <div class="gallery-card"><img src="https://via.placeholder.com/400x250" alt="ރަށް 4"></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="welcome-title">ރާއްޖެތެރޭގެ ރީތިކަން</h2>
+        <p>
+            ދިވެހިރާއްޖެއަކީ ދުނިޔޭގެ އެންމެ ރީތި ގުދުރަތީ މަންޒަރުތައް ފެންނަ އެއް ޤައުމެވެ. ދިވެހިރާއްޖޭގެ ރަށްރަށުގެ ގޮނޑުދޮށްތަކުގެ ހުދު ދޮންވެލި ތުނޑިތަކާއި، މޫދު އަޑީގެ ހިތްގައިމު މުރަކަތަކާއި، އަދި ނޫ ކުލައިގެ ސާފު މޫދަކީ މުޅި ދުނިޔޭގައިވެސް ފާހަގަކޮށްލެވޭ ފަދަ ރީތިކަމެކެވެ.
+        </p>
+    </section>
+</div>
+
+<footer>
+    <p>ހުރިހާ ހައްޤެއްވެސް ރައްކާތެރިކުރެވިފައި © 2026 މުޢާޒް</p>
+</footer>
+
+</body>
+</html>
