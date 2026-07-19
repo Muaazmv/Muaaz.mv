@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="dv" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>މުޢާޒް އެމްވީ 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thaana&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans Thaana', sans-serif; background-color: #f4f7f6; margin: 0; padding: 0; }
+        
+        /* ހެޑާރ */
+        header { background: #00796b; color: white; padding: 30px; text-align: center; font-size: 1.8rem; font-weight: bold; }
+        .admin-badge { font-size: 1rem; color: #b2dfdb; display: block; margin-top: 5px; }
+        
+        .main-container { max-width: 900px; margin: 20px auto; padding: 10px; }
+        
+        /* ލޭއައުޓް */
+        .wrapper { display: flex; gap: 20px; flex-wrap: wrap; }
+        .sidebar { flex: 1; min-width: 200px; }
+        .main-content { flex: 2; min-width: 300px; }
+        
+        .box { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        .box h3 { color: #00796b; border-bottom: 2px solid #00796b; display: inline-block; padding-bottom: 5px; }
+        
+        /* ގެލަރީ */
+        .gallery-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .gallery-card { height: 120px; border: 1px solid #ddd; border-radius: 8px; display: flex; align-items: center; justify-content: center; background: #fff; transition: 0.3s; }
+        .gallery-card:hover { background: #e0f2f1; cursor: pointer; }
+        
+        footer { text-align: center; padding: 20px; color: #666; font-size: 0.9rem; }
+
+        @media (max-width: 600px) {
+            .wrapper { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    މުޢާޒް ވެބްސައިޓް އަށް މަރުޚަބާ
+    <span class="admin-badge"> އެޑްމިން މުޢާޒް</span>
+</header>
+
+<div class="main-container">
+    <div class="wrapper">
+        <!-- ވައަތްފަރާތު ބައި -->
+        <div class="sidebar">
+            <div class="box">
+                <h3>ފިހުރިސްތު</h3>
+                <p>ފުރަތަމަ ޞަފްޙާ</p>
+                <p>ވާހަކަ</p>
+                ވެބްސައިޓް އެޑްމިން މުޢާޒް 
+            </div>
+        </div>
+
+        <!-- މައި ބައި -->
+        <div class="main-content">
+            <div class="box">
+                <h3>މުޢާޒް</h3>
+                <p>މުޢާޒް ވެބްސައިޓް އަށް ވަތް ކަމަށް ޝުކުރިއްޔާ! މިއީ އެޑްމިން މުޢާޒް ގެ އަމިއްލަ ވެބްސައިޓެވެ.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ގެލަރީ -->
+    <div class="box">
+        <h3>ރާއްޖޭގެ ރީތި ރަށްތަކާއި މޫދު</h3>
+        <div class="gallery-grid">
+            <div class="gallery-card">ފޮޓޯ 1</div>
+            <div class="gallery-card">ފޮޓޯ 2</div>
+            <div class="gallery-card">ފޮޓޯ 3</div>
+            <div class="gallery-card">ފޮޓޯ 4</div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    &copy;2026  މުޢާޒް އެމްވީ މިއީ  އަޅުގަނޑުގެ އަމިއްލަ ވެބްސައިޓް
+</footer>
+
+</body>
+</html>
